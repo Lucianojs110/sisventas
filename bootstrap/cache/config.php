@@ -131,7 +131,7 @@
   ),
   'barcode' => 
   array (
-    'store_path' => 'C:\\laragon\\www\\sisventanew\\public\\/',
+    'store_path' => 'C:\\laragon\\www\\sisventa\\public\\/',
   ),
   'broadcasting' => 
   array (
@@ -186,7 +186,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\laragon\\www\\sisventanew\\storage\\framework/cache/data',
+        'path' => 'C:\\laragon\\www\\sisventa\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -277,10 +277,10 @@
     'orientation' => 'portrait',
     'defines' => 
     array (
-      'DOMPDF_FONT_DIR' => 'C:\\laragon\\www\\sisventanew\\storage\\fonts/',
-      'DOMPDF_FONT_CACHE' => 'C:\\laragon\\www\\sisventanew\\storage\\fonts/',
+      'DOMPDF_FONT_DIR' => 'C:\\laragon\\www\\sisventa\\storage\\fonts/',
+      'DOMPDF_FONT_CACHE' => 'C:\\laragon\\www\\sisventa\\storage\\fonts/',
       'DOMPDF_TEMP_DIR' => 'C:\\Users\\luciano\\AppData\\Local\\Temp',
-      'DOMPDF_CHROOT' => 'C:\\laragon\\www\\sisventanew',
+      'DOMPDF_CHROOT' => 'C:\\laragon\\www\\sisventa',
       'DOMPDF_UNICODE_ENABLED' => true,
       'DOMPDF_ENABLE_FONT_SUBSETTING' => false,
       'DOMPDF_PDF_BACKEND' => 'CPDF',
@@ -305,12 +305,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\laragon\\www\\sisventanew\\storage\\app',
+        'root' => 'C:\\laragon\\www\\sisventa\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\laragon\\www\\sisventanew\\storage\\app/public',
+        'root' => 'C:\\laragon\\www\\sisventa\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -364,7 +364,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\laragon\\www\\sisventanew\\resources\\views/vendor/mail',
+        0 => 'C:\\laragon\\www\\sisventa\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -472,7 +472,7 @@
     ),
     'generator' => 
     array (
-      'basePath' => 'C:\\laragon\\www\\sisventanew\\app',
+      'basePath' => 'C:\\laragon\\www\\sisventa\\app',
       'rootNamespace' => 'App\\',
       'paths' => 
       array (
@@ -485,7 +485,7 @@
         'controllers' => 'Http/Controllers',
         'provider' => 'RepositoryServiceProvider',
         'criteria' => 'Criteria',
-        'stubsOverridePath' => 'C:\\laragon\\www\\sisventanew\\app',
+        'stubsOverridePath' => 'C:\\laragon\\www\\sisventa\\app',
       ),
     ),
   ),
@@ -519,7 +519,7 @@
     'lifetime' => 120,
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\laragon\\www\\sisventanew\\storage\\framework/sessions',
+    'files' => 'C:\\laragon\\www\\sisventa\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -584,9 +584,9 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\laragon\\www\\sisventanew\\resources\\views',
+      0 => 'C:\\laragon\\www\\sisventa\\resources\\views',
     ),
-    'compiled' => 'C:\\laragon\\www\\sisventanew\\storage\\framework\\views',
+    'compiled' => 'C:\\laragon\\www\\sisventa\\storage\\framework\\views',
   ),
   'datatables' => 
   array (
